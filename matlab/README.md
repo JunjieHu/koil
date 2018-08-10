@@ -1,25 +1,21 @@
-Kernelized Online Imbalanced Learning with Fixed Budgets [![Build Status](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9578]
-=====
-Run the following three scripts in Matlab.
-1. See the performance of KOIL RS/RS++, FIFO/FIFO++, Infinite_Buffer
+Matlab Implementation
+==
 
-     run_demo.m
+Brief: This is the Matlab implementation of KOIL. Open the Matlab and run the following three scripts in Matlab. You need to prepare the data and the kernel matrix in the same format as those in the data folder.
 
-2. See the effect of k
+1. Test the performance of KOIL RS/RS++, FIFO/FIFO++, Infinite_Buffer
 
-     run_demo_kSize.m
+		run_demo.m
 
-3. See the effect of buffer size
+2. Test the effect of k
 
-     run_demo_BufferSize.m
+		run_demo_Ksize.m
 
-If you use the codes in this repo, please cite the following paper.
+3. Test the effect of buffer size
 
-@inproceedings{hu2015kernelized,
-  title={Kernelized online imbalanced learning with fixed budgets},
-  author={Hu, Junjie and Yang, Haiqin and King, Irwin and Lyu, Michael R and So, Anthony Man-Cho},
-  booktitle={Proceedings of the Twenty-Ninth AAAI Conference on Artificial Intelligence},
-  pages={2666--2672},
-  year={2015},
-  organization={AAAI Press}
-}
+		run_demo_BufferSize.m
+
+4. Test the 
+		
+		run_mkl_demo.m
+
