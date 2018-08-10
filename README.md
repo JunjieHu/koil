@@ -44,7 +44,7 @@ Five executable functions are generated.
 1. Online evaluation:
 
 		./online [dataset_file] [C] [gamma] [loss type]
-Example to perform 20-runs KOIL based l2 loss, with C=1 and gamma=0.25:
+	Example to perform 20-runs KOIL based l2 loss, with C=1 and gamma=0.25:
 
 		./online diabetes 1 0.25 l2
 
@@ -52,7 +52,7 @@ Example to perform 20-runs KOIL based l2 loss, with C=1 and gamma=0.25:
 2. CV: cross validation by exploniential step
 		
 		./CV [dataset_file] [Num of clist] [Num of glist] [c start] [g start] [cstep] [gstep] [cvfold] [loss type]
-Example to perform 5-fold cross validation of KOIL based on l1 loss on diabetes dataset, where C in range [2^(-5:1:4)], gamma in range [2^(-10:1:9)].
+	Example to perform 5-fold cross validation of KOIL based on l1 loss on diabetes dataset, where C in range [2^(-5:1:4)], gamma in range [2^(-10:1:9)].
 
 		./CV diabetes 10 20 -5 -10 2 2 5 l1
 
@@ -60,7 +60,7 @@ Example to perform 5-fold cross validation of KOIL based on l1 loss on diabetes 
 3. CVP: cross validation by additional step
 
 		./CVP [dataset_file] [Num of clist] [Num of glist] [c start] [g start] [cstep] [gstep] [cvfold] [loss type]
-Example to perform 5-fold cross validation of KOIL based on l1 loss on diabetes dataset, where C in range [1:10:91], gamma in range [0.01:0.05:0.901].
+	Example to perform 5-fold cross validation of KOIL based on l1 loss on diabetes dataset, where C in range [1:10:91], gamma in range [0.01:0.05:0.901].
 		
 		./CVP diabetes 10 20 1 0.001 10 0.05 5 l1
 
@@ -68,7 +68,7 @@ Example to perform 5-fold cross validation of KOIL based on l1 loss on diabetes 
 4. CVM: cross validation by exploniential step for MKL
 		
 		./CVM [dataset_file] [Num of clist] [c start] [cstep] [cvfold] [loss type]
-Example to perform 5-fold cross validation of KOIL with MKL based on l1 loss on diabetes dataset, where C in range [2^(-10:1:9)]
+	Example to perform 5-fold cross validation of KOIL with MKL based on l1 loss on diabetes dataset, where C in range [2^(-10:1:9)]
 		
 		./CVM diabetes 10 20 -10 2 5 l1
 
@@ -76,7 +76,7 @@ Example to perform 5-fold cross validation of KOIL with MKL based on l1 loss on 
 5. mkl: KOIL with MKL
 		
 		./mkl [dataset_file] [loss type] [delta] [C] [degree num] [degree list]  [gamma list]
-Example to perform 20-runs KOIL with MKL based on l1 loss on diabetes, with 3 Polynomial Kernel where d={1,2,3} and 6 Gaussian Kernel where gamma={10^[-3:1:2]} 
+	Example to perform 20-runs KOIL with MKL based on l1 loss on diabetes, with 3 Polynomial Kernel where d={1,2,3} and 6 Gaussian Kernel where gamma={10^[-3:1:2]} 
 		
 		./mkl diabetes l1 0.5 1 3 1 2 3 0.001 0.01 0.1 1 10 100
 
