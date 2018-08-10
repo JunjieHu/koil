@@ -1,4 +1,4 @@
-Kernelized Online Imbalanced Learning with Fixed Buddget
+Kernelized Online Imbalanced Learning with Fixed Buddgets
 ===
 Implemented by [Junjie Hu](http://www.cs.cmu.edu/~junjieh/)
 
@@ -98,7 +98,7 @@ Brief: This is the Matlab implementation of KOIL. Open the Matlab and run the fo
 
 		run_demo_BufferSize.m
 
-4. Test the 
+4. Test the multi-kernel learning of KOIL
 		
 		run_mkl_demo.m
 
