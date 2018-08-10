@@ -15,7 +15,7 @@ Brief: This is the Matlab implementation of KOIL. Open the Matlab and run the fo
 
 		run_demo_BufferSize.m
 
-4. Test the 
+4. Test the multi-kernel learning of KOIL
 		
 		run_mkl_demo.m
 
