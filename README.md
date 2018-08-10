@@ -31,15 +31,15 @@ If you use the codes for multi-kernel learning, please cite our [TNNLS paper](ht
 
 C++ Implementation
 ==
-Brief: This is the C++ version KOIL. This program depends on the boost library, which is popular with std C++ users.
+Brief: This is the C++ version KOIL. This program depends on the boost library.
 For boost installation, please refer to [http://www.boost.org/](http://www.boost.org/).
-This program is tested on Ubuntu 12.04 and 13.10. Open the terminal and cd to the folder. Then type as follow:
+This program is tested on Ubuntu 12.04 and 13.10. Open the terminal, redirect to the cpp folder and install by cmake.
 
 	cd cpp
 	cmake .
 	make
 
-Three executable functions are generated.
+Five executable functions are generated.
 
 1. Online evaluation:
 
