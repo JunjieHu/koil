@@ -75,7 +75,7 @@ Example to perform 5-fold cross validation of KOIL with MKL based on l1 loss on 
 
 5. mkl: KOIL with MKL
 		
-		./mkl <dataset_file> <loss type> <delta> <C> <degree num> <degree list>  <gamma list>
+		./mkl [dataset_file] [loss type] [delta] [C] [degree num] [degree list]  [gamma list]
 Example to perform 20-runs KOIL with MKL based on l1 loss on diabetes, with 3 Polynomial Kernel where d={1,2,3} and 6 Gaussian Kernel where gamma={10^[-3:1:2]} 
 		
 		./mkl diabetes l1 0.5 1 3 1 2 3 0.001 0.01 0.1 1 10 100
@@ -84,7 +84,7 @@ Example to perform 20-runs KOIL with MKL based on l1 loss on diabetes, with 3 Po
 Matlab Implementation
 ==
 
-Brief: This is the Matlab implementation of KOIL. Open the Matlab and run the following three scripts in Matlab.
+Brief: This is the Matlab implementation of KOIL. Open the Matlab and run the following three scripts in Matlab. You need to prepare the data and the kernel matrix in the same format as those in the data folder.
 
 1. Test the performance of KOIL RS/RS++, FIFO/FIFO++, Infinite_Buffer
 
