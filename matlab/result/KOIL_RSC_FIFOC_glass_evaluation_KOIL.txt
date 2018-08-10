@@ -1,0 +1,22 @@
+result/KOIL_RSC_FIFOC_glass
+-------------------------------------------------------------------------------
+KOIL_RSC: (number of mistakes, size of support vectors, cpu running time)
+38.2500 	 3.6545 	 156.0000 	 2.2005 	 1.1460 	 0.2990
+KOIL_RS: (number of mistakes, size of support vectors, cpu running time)
+39.2500 	 4.0636 	 156.0000 	 2.2005 	 0.4323 	 0.0386
+KOIL_FIFOC: (number of mistakes, size of support vectors, cpu running time)
+38.2000 	 3.5034 	 156.0000 	 2.2005 	 0.3959 	 0.0159
+KOIL_FIFO: (number of mistakes, size of support vectors, cpu running time)
+38.3500 	 3.7735 	 156.0000 	 2.2005 	 0.3971 	 0.0283
+KOIL_inf: (number of mistakes, size of support vectors, cpu running time)
+38.3000 	 3.6721 	 170.6000 	 1.2732 	 1.0444 	 0.2407
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+KOIL_RSC  &0.888 	$\pm$ 0.054 	 &0.807 	$\pm$ 0.058 	 & 1.146  	 \\
+KOIL_RS  &0.847 	$\pm$ 0.056 	 &0.770 	$\pm$ 0.065 	 & 0.432  	 \\
+KOIL_FIFOC  &0.883 	$\pm$ 0.055 	 &0.797 	$\pm$ 0.059 	 & 0.396  	 \\
+KOIL_FIFO  &0.863 	$\pm$ 0.056 	 &0.778 	$\pm$ 0.065 	 & 0.397  	 \\
+KOIL_inf  &0.884 	$\pm$ 0.056 	 &0.797 	$\pm$ 0.057 	 & 1.044  	 \\
+-------------------------------------------------------------------------------
